@@ -1,7 +1,6 @@
 /**
 *  Name: Paria Rezaei
 */
-
 package org.howard.edu.lsp.assignment1;
 
 public class HelloWorld {
