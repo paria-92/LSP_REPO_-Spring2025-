@@ -11,14 +11,14 @@ public class ETLPipeline {
         String outputFilePath = "data/transformed_products.csv";
 
         try {
-            // Extract Phase: Read the file
+            // Read the file
             List<String> lines = readFile(inputFilePath);
             if (lines.isEmpty()) {
                 System.err.println("Error: Input file is empty.");
                 return;
             }
 
-            // Transform Phase: Process extracted data
+            // Transform Phase(Process extracted data)
             List<String> transformedLines = transformData(lines);
 
             // Print transformed data to console
@@ -27,7 +27,7 @@ public class ETLPipeline {
                 System.out.println(line);
             }
 
-            // Load Phase: Write the transformed data
+            // Load Phase(Write the transformed data)
             writeFile(outputFilePath, transformedLines);
             System.out.println("\n✅ Transformed data saved to: " + outputFilePath);
 
@@ -76,7 +76,7 @@ public class ETLPipeline {
                 String priceRange;
 
                 if (category.equalsIgnoreCase("Electronics")) {
-                    price = Math.round((price * 0.9) * 100.0) / 100.0;
+                    price = Math.round((price * 0.9) * 100.0) / 100.0; // Apply discount and round
                 }
 
                 if (price > 500) {
