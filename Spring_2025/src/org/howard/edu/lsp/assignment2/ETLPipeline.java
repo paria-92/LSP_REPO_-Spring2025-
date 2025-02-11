@@ -61,7 +61,7 @@ public class ETLPipeline {
                 continue;
             }
 
-            String[] parts = line.split(",\s*");
+            String[] parts = line.split(",\\s*");
             if (parts.length != 4 || parts[0].trim().isEmpty() || parts[1].trim().isEmpty() 
                 || parts[2].trim().isEmpty() || parts[3].trim().isEmpty()) {
                 System.err.println("Skipping invalid or incomplete line: " + line);
