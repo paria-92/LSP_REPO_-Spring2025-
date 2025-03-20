@@ -1,11 +1,12 @@
 package org.howard.edu.lsp.midterm.question1;
 
-public class Helloworld {
-
-	public static void main(String[] args) {
-		System.out.println("Hello, Midterm!");
-		// TODO Auto-generated method stub
-
-	}
-
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Midterm!");
+        System.out.println("This is an updated version of HelloWorld.java.");
+        
+        // New Feature: Display a motivational quote
+        System.out.println("Keep pushing forward, you are doing great!");
+    }
 }
+
