@@ -4,7 +4,6 @@ public class Helloworld {
     public static void main(String[] args) {
         System.out.println("Hello, Midterm!");
         System.out.println("This is an updated version of HelloWorld.java.");
-        System.out.println("This is an updated again version of HelloWorld.java.");
         
         // New Feature: Display a motivational quote
         System.out.println("Keep pushing forward, you are doing great!");
