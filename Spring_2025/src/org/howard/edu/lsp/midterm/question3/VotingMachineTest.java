@@ -28,3 +28,10 @@ public class VotingMachineTest {
         System.out.println("Winner: " + vm.getWinner());
     }
 }
+
+/**
+ * References:
+ * - Writing JUnit tests in Java: https://junit.org/junit5/docs/current/user-guide/
+ * - Java HashMap Documentation: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html
+ * - Using Assertions in JUnit: https://www.baeldung.com/junit-assertions
+ */

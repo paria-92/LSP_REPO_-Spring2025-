@@ -58,3 +58,10 @@ public class VotingMachine {
         return winner + " WINS with " + maxVotes + " votes!!";
     }
 }
+/**
+ *
+ * References:
+ * - Using HashMap in Java: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html
+ * - Iterating Through HashMap: https://www.geeksforgeeks.org/iterate-map-java/
+ * - Comparing Values in HashMap: https://stackoverflow.com/questions/5911174/finding-key-associated-with-max-value-in-a-java-map
+ */
