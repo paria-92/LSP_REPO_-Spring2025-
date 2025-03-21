@@ -53,3 +53,13 @@ public class Book {
                ", ISBN: " + ISBN + ", Year Published: " + yearPublished;
     }
 }
+/**
+ * Represents a book in a library.
+ * 
+ * References:
+ * - https://docs.oracle.com/javase/tutorial/java/javaOO/index.html  (Java Object-Oriented Basics)
+ * - https://www.geeksforgeeks.org/java-getter-and-setter-methods/  (Encapsulation: Getters & Setters)
+ * - https://www.baeldung.com/java-equals-hashcode-contract  (Overriding equals() method)
+ * - https://www.digitalocean.com/learn/how-to-override-tostring-method-in-java  (Overriding toString() method)
+ * - https://www.javatpoint.com/constructors-in-java  (Java Constructors)
+ */
